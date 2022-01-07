@@ -9,7 +9,7 @@ function car() {
     return (
         <>
          <MenuBar />
-         <Cards />
+         <Cards itemsPerPage={4} />
          <Footer />
          </>
       );
